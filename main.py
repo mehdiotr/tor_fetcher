@@ -10,7 +10,7 @@ from stem import Signal
 from stem.control import Controller
 from colorama import Fore, Style, init as colorama_init
 
-TARGET_URL = "https://www.amazon.com/"
+TARGET_URL = "https://www.google.com/"
 MAX_RETRIES = 30
 REQUEST_TIMEOUT = 60000
 TOR_SOCKS_PROXY = "socks5://127.0.0.1:9050"
